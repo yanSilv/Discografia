@@ -18,9 +18,9 @@ export class MenuBarComponent implements OnInit {
     this.items = [{
       label: 'Discografia',
       items: [
-          {label: 'Artistas', icon: 'fa fa-plus'},
-          {label: 'Album', icon: 'fa fa-dot-circle-o'},
-          {label: 'Musica', icon: 'fa fa-music'}
+          {label: 'Artistas', icon: 'fa fa-plus', routerLink: 'cadastroMusica'},
+          {label: 'Album', icon: 'fa fa-dot-circle-o', routerLink: 'cadastroAlbum'},
+          {label: 'Musica', icon: 'fa fa-music', routerLink: 'listaAlbum'}
       ]
     }];
   }
